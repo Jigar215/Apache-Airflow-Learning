@@ -1,4 +1,17 @@
 # .env File 
 .env 
 
+# config folder's file
 config/airflow.cfg
+
+# logs folder's files
+logs/*
+!logs/.gitkeep
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
