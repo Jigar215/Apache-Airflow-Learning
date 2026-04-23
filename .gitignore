@@ -1,0 +1,4 @@
+# .env File 
+.env 
+
+config/airflow.cfg
