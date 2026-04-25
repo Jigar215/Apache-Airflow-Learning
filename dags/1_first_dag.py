@@ -17,10 +17,12 @@ def first_dag():
     def third_task():
         print("This is the third task")
 
+    # Defining task dependencies
     first = first_task()
     second = second_task()
     third = third_task()
 
     first >> second >> third
 
+# Instantiating the DAG
 first_dag()
