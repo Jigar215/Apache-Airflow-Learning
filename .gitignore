@@ -7,6 +7,7 @@ config/airflow.cfg
 # logs folder's files
 logs/*
 !logs/.gitkeep
+!logs/data/
 
 # Python-generated files
 __pycache__/
